@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'fuente1';
+    src: url('fuente1.otf') format("opentype"); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'fuente2';
+    src: url('NT\ Epika\ Regular\ \(PERSONAL\ USE\).otf') format("opentype"); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face {
+    font-family:'fuente3';
+    src: url('CaviarDreams.ttf') format("truetype"); 
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family:'fuente4';
+    src: url('LocalBrewerySans.otf') format("opentype"); 
+    font-style: normal;
+    font-weight: normal;
+}

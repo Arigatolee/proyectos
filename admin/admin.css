@@ -1,0 +1,637 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+body{
+    max-width: 984px;
+    margin: 0 auto;
+    background-image: url(../imagenes/a1.png);
+    background-position: center 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#noticia{
+    width: 100%;
+    height:32px ;
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    padding-top:2px ;
+    font-size: 13px;
+    font-family:"fuente3"; 
+    letter-spacing: 2px;
+}
+
+
+#cabeza{
+    width: 100%;
+    height: 120px;
+   
+
+}
+
+#anim1{
+    margin: 0 auto;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(0, 255, 255, 0);
+    overflow: hidden;
+
+}
+
+#anim1-1{
+    margin-top: 8px;
+height: 100%;
+width: max-content;
+background-color: rgba(0, 255, 255, 0);
+animation: anim1 18s infinite linear;
+}
+
+@keyframes anim1 {
+   0%{transform: translateX(400px);}
+   100%{transform: translateX(-100%);}
+}
+
+#img1-1{
+    
+   padding-top: 16px;
+    margin: 0 auto;
+    width: 136px;
+    height: 100%;
+}
+#img1{
+    width: 136px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+
+}
+
+#p3{
+position: relative;
+float: left;
+width: 40px;
+height: 40px;
+background-color: rgba(0, 255, 255, 0);
+left: 24px;
+top: 52px;
+background-image: url("imagenes/gear\ \(1\).png");
+background-position: center center;
+background-clip: border-box;
+background-size: 150%;
+background-repeat: no-repeat;
+}
+
+#p3:hover{
+    cursor: pointer;
+}
+
+#menulateral{
+    top: 0px;
+    left:0px;
+    position:fixed ;
+    background-color: #1c1b1b;
+    width: 272px;
+    height: 100%;
+    transition:all 500ms linear;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+}
+
+#menulateral.active{
+    
+    width: 0px;
+}
+
+#cerrarmenu{
+   
+    margin-left: 21.6px;
+    margin-top: 24px;
+    width: 16.8px;
+    height: 16.8px;
+    background-color: rgba(255, 228, 196, 0);
+    transition: 10s;
+    background-image: url("imagenes/equis.png");
+    background-position: center center;
+    background-clip: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+   filter: invert(100%);
+}
+
+#cerrarmenu:hover{
+    cursor: pointer;
+}
+
+#menuselect{
+    line-height: 46.4px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"fuente1";
+    margin-top: 8px;
+  padding: 24px;
+  color: white;
+    text-decoration: none;
+    
+}
+
+#menuselect a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-family:"fuente3"; 
+    letter-spacing: 1.6px;
+}
+
+
+#prepresentacion{
+    margin: 0 auto;
+    width: 100%;
+    height: 235px;
+    overflow: hidden;
+}
+#presentacion{
+    margin: 0 auto;
+   width: 100%;
+ height: 235px;
+    overflow: hidden;
+    background-color: #262627;
+    background-image: url(../imagenes/a1.png);
+    background-position: center 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+   
+}
+
+#presentacionimg{
+    size: cover;
+    width: 100%;
+  top: -50%;
+  filter: opacity(0%);
+
+
+}
+
+#bienvenida{
+    color: white;
+    position: relative;
+    float: left;
+    font-size: 17.6px;
+    font-family: "fuente3";
+    top:256px;
+    left: 32px;
+    letter-spacing: 8px;
+
+}
+
+#contenedorcartas{
+    width: 100%;
+    height:fit-content;
+    background-color: rgba(33, 201, 18, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    transition: 1.5s;
+   
+
+}
+.contenedorcartasa{
+   filter: opacity(50%);
+   display: none;
+    
+}
+
+.cartaA{
+    background-color: #262627;
+    margin: 1px;
+    width:320px;
+    height: 60px;
+ overflow: hidden;
+border-radius: 0%;
+cursor: pointer;
+
+}
+.carta{
+    background-color: #262627;
+    margin: 4px;
+    width:320px;
+    height: 344px;
+ overflow: hidden;
+ background-image: url(https://cdn.shopify.com/s/files/1/0510/6293/1655/collections/Black_w_Bling_750x960_crop_center.heic?v=1664401733);
+background-position: CENTER center;
+background-size: cover;
+border-radius: 14px;
+}
+
+.nombrecarta{
+    color: white;
+    
+    position: relative;
+    top: 17.6px;
+    left: 32px;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+    float: left;
+    animation: jaja 2s linear infinite alternate;
+    font-family: "fuente3"
+}
+
+
+
+
+.botonventa{
+    position: relative;
+    top: 4px;
+    right: 12px;
+    float: right;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvp1sQ6oxQhFV7FHSrNYyNsHrZc3Kl8VZ6pzVKcyMEI88kwjtGGHzS-pni86BvJT7XmOc&usqp=CAU);
+    background-position: CENTER center;
+background-size: 110%;
+cursor: pointer;
+border-radius: 100%;
+background-color: black;
+animation: colora linear infinite 4s alternate;
+}
+
+.botonventaall{
+    position: relative;
+    top: 4px;
+    right: 12px;
+    float: right;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvp1sQ6oxQhFV7FHSrNYyNsHrZc3Kl8VZ6pzVKcyMEI88kwjtGGHzS-pni86BvJT7XmOc&usqp=CAU);
+    background-position: CENTER center;
+background-size: 110%;
+cursor: pointer;
+border-radius: 100%;
+background-color: black;
+animation: colora linear infinite 4s alternate;
+}
+
+@keyframes colora {
+    0%{filter: hue-rotate(100deg);}
+    100%{filter: hue-rotate(0deg);}
+
+}
+
+#infobt1{
+    width: 160px;
+    height: 80px;
+    background-color: aqua;
+    position: relative;
+    left: 96px;
+  
+
+}
+
+
+.eff{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 56px;
+filter: opacity(50%);
+top: 288px;
+position: relative;
+}
+
+#tienda{
+    height:100%;
+    transition: 1.5s;
+    top: 96px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgba(157, 65, 65, 0);
+}
+
+
+#headertienda{
+width: 100%;
+height: 72px;
+margin-top: 10px;
+
+}
+
+
+#productos{
+    margin-top: 0px;
+margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse
+   
+}
+
+
+#cerrartienda{
+     cursor: pointer;
+    margin-left: 32px;
+    margin-top: 0px;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 228, 196, 0);
+    transition: 2s;
+    background-image: url("imagenes/equis.png");
+    background-position: center center;
+    background-clip: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+   
+    background-color: rgb(48, 143, 0);
+}
+
+#tomar{
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 32px;
+   top: 10px;
+    position: absolute;
+
+}
+.producto{
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.69);
+    transform: scale(0.9);
+    width: 288px;
+    height: 309px;
+    margin: 0 4px;
+    border: rgba(0, 0, 0, 0) 1.6px solid;
+    background-color: rgba(127, 255, 212, 0);
+    margin-bottom: -20px;
+   
+     border-radius: 14px;
+   
+}
+#divimagen{
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+
+#imagendeproducto{
+height: 100%;
+border-radius: 14px;
+   
+    
+   
+}
+
+
+
+
+
+
+#infoL{
+    background-color: violet;
+    font-weight: 400;
+float: left;
+position: absolute;
+transform: translate(10px ,-31px);
+width:130px ;
+height: 30px;
+background-color: rgba(255, 228, 196, 0);
+text-align: center;
+font-family: 'fuente1';
+font-size: 20px;
+
+bottom: 5px;
+}
+
+#infoR{
+    bottom: -10px;
+    left: 40px;
+    float: right;
+    position: absolute;
+    transform: translate(150px ,-31px);
+    width:90px ;
+    height: 30px;
+    background-color: rgba(255, 228, 196, 0);
+    text-align: center;
+    font-family: 'fuente1';
+    font-size: 20px;
+}
+
+#editp{
+    border-radius: 50%;
+    width: 45%;
+   aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+float: left;
+border: inset 1px solid black;
+background-image: url(imagenes/pencil.png);
+background-position: center center;
+background-size: 70%;
+background-repeat: no-repeat;
+}
+#deletep{
+    border-radius: 50%;
+    width: 45%;
+   aspect-ratio: 1/1;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    border: inset 1px solid black;
+    background-image: url(imagenes/bin.png);
+background-position: center center;
+background-size: 70%;
+background-repeat: no-repeat;
+}
+
+#ccc{
+    max-width: 984px;
+    width: calc(984px);
+    min-height:500px ;
+    background-color: blue;
+    position: absolute;
+ top: 150px;
+    z-index: 1;
+    
+}
+
+
+
+#vistaadminproductos{
+    z-index: 2;
+ 
+    margin: 0 auto;
+
+    height: 235px;
+ min-height: 235;
+   
+    margin: 0 auto;
+    border-radius: 14px;
+
+    
+}
+
+.vistaadminproducto{
+   
+    width:470px;
+   height: 235px;
+background-color: #31435165;
+    margin: 0 auto;
+    margin: 5px auto 5px auto;
+    backdrop-filter: blur(14px);
+    border-radius: 14px;
+
+
+}
+/*form*/
+#guardarproductosR{
+    height: 100%;
+    width: 100%;
+    border-radius: 14px;
+    }
+    
+    
+    
+    
+
+
+.divicion{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inp{
+  
+    border: #1c1b1b00 0px;
+    background-color: #1c1b1b00;
+   width: 23%;
+   height: 25px;
+}
+
+.inp2{
+    cursor: pointer;
+    width: 10%;
+    aspect-ratio: 1/1;
+background-image: url(imagenes/save.png);
+background-position: center center;
+background-size: cover;
+}
+
+.inp3{
+    border-radius: 4px;
+    height: 20px;
+width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#guardare{
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    display: flex;
+
+}
+#enviar{
+    height: 25px;
+margin: 0 auto;
+border-radius: 14px;
+cursor: pointer;
+}
+.inpimg{
+
+    cursor: pointer;
+    width: 100%;
+aspect-ratio: 1/1;
+
+    background-color: rgba(14, 194, 194, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+
+}
+
+#entradaizquierda{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(122, 131, 128, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 14px;
+    background-image: url(imagenes/add-photo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20%;
+}
+#entradaderecha{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+#hola{
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.69);
+    transform: scale(0.9);
+    width: 288px;
+    height: 309px;
+    margin: 0 4px;
+    border: rgba(0, 0, 0, 0) 1.6px solid;
+    background-color: rgba(127, 255, 212, 0);
+    margin-bottom: 25px;
+    
+     border-radius: 14px;
+     background-image: url(imagenes/add.png);
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: 20%;
+     cursor: pointer;
+}
+
+.cerr{
+    z-index: 3;
+    margin-left: 10px;
+margin-top: 10px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+
+#centrarform{
+    width: 10px;
+
+    margin: 0 auto;
+}

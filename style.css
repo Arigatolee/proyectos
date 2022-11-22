@@ -1,0 +1,539 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+    max-width: 984px;
+    margin: 0 auto;
+    background-image: url(imagenes/a1.png);
+    background-position: center 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#noticia{
+    width: 100%;
+    height:32px ;
+    background-color: rgb(28, 27, 27);
+    color: aliceblue;
+    padding-top:2px ;
+    font-size: 13px;
+    font-family:"fuente3"; 
+    letter-spacing: 2px;
+}
+
+
+#cabeza{
+    width: 100%;
+    height: 120px;
+   
+
+}
+
+#anim1{
+    margin: 0 auto;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(0, 255, 255, 0);
+    overflow: hidden;
+
+}
+
+#anim1-1{
+    margin-top: 8px;
+height: 100%;
+width: max-content;
+background-color: rgba(0, 255, 255, 0);
+animation: anim1 18s infinite linear;
+}
+
+@keyframes anim1 {
+   0%{transform: translateX(400px);}
+   100%{transform: translateX(-100%);}
+}
+
+#img1-1{
+    
+   padding-top: 16px;
+    margin: 0 auto;
+    width: 136px;
+    height: 100%;
+}
+#img1{
+    width: 136px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+
+}
+
+#p3{
+position: relative;
+float: left;
+width: 16px;
+height: 16px;
+background-color: rgba(0, 255, 255, 0);
+left: 24px;
+top: 52px;
+background-image: url("imagenes/menu.png");
+background-position: center center;
+background-clip: border-box;
+background-size: 125%;
+background-repeat: no-repeat;
+}
+
+#p3:hover{
+    cursor: pointer;
+}
+
+#menulateral{
+    top: 0px;
+    left:0px;
+    position:fixed ;
+    background-color: #1c1b1b;
+    width: 272px;
+    height: 100%;
+    transition:all 500ms linear;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+}
+
+#menulateral.active{
+    
+    width: 0px;
+}
+
+#cerrarmenu{
+   
+    margin-left: 21.6px;
+    margin-top: 24px;
+    width: 16.8px;
+    height: 16.8px;
+    background-color: rgba(255, 228, 196, 0);
+    transition: 10s;
+    background-image: url("imagenes/equis.png");
+    background-position: center center;
+    background-clip: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+   filter: invert(100%);
+}
+
+#cerrarmenu:hover{
+    cursor: pointer;
+}
+
+#menuselect{
+    line-height: 46.4px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"fuente1";
+    margin-top: 8px;
+  padding: 24px;
+  color: white;
+    text-decoration: none;
+    
+}
+
+#menuselect a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-family:"fuente3"; 
+    letter-spacing: 1.6px;
+}
+
+
+#prepresentacion{
+    width: 100%;
+    height: 296px;
+    overflow: hidden;
+}
+#presentacion{
+   width: 100%;
+ height: 296px;
+    overflow: hidden;
+    background-color: #262627;
+    background-image: url(imagenes/a1.png);
+    background-position: center 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+}
+
+#presentacionimg{
+    size: cover;
+    width: 100%;
+  top: -50%;
+  filter: opacity(0%);
+
+}
+
+#bienvenida{
+    color: white;
+    position: relative;
+    float: left;
+    font-size: 17.6px;
+    font-family: "fuente3";
+    top:256px;
+    left: 32px;
+    letter-spacing: 8px;
+
+}
+
+#contenedorcartas{
+    width: 100%;
+    height:fit-content;
+    background-color: rgba(33, 201, 18, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    transition: 1.5s;
+   
+
+}
+.contenedorcartasa{
+   filter: opacity(50%);
+   display: none;
+    
+}
+
+.cartaA{
+    background-color: #262627;
+    margin: 1px;
+    width:320px;
+    height: 60px;
+ overflow: hidden;
+border-radius: 0%;
+cursor: pointer;
+
+
+}
+.carta{
+
+    transform: scale(0.9);
+    background-color: #262627;
+    margin: 4px;
+    width:320px;
+    height: 344px;
+ overflow: hidden;
+ background-image: url(https://cdn.shopify.com/s/files/1/0510/6293/1655/collections/Black_w_Bling_750x960_crop_center.heic?v=1664401733);
+background-position: CENTER center;
+background-size: cover;
+border-radius: 14px;
+}
+
+.nombrecarta{
+    color: white;
+    
+    position: relative;
+    top: 17.6px;
+    left: 32px;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+    float: left;
+    animation: jaja 2s linear infinite alternate;
+    font-family: "fuente3"
+}
+
+
+
+#im1{
+    background-image: url(https://st.depositphotos.com/1737105/4793/i/450/depositphotos_47938691-stock-photo-cute-red-yellow-blue-blouses.jpg);
+background-position: CENTER center;
+background-size: cover;
+}
+#im2{
+    background-image: url(https://www.clorox.com/wp-content/uploads/2021/10/how-to-bleach-jeans-lighter.jpg?width=1040&height=780&fit=crop);
+background-position: CENTER center;
+background-size: cover;
+}
+#im3{
+    background-image: url(https://images.unsplash.com/photo-1604467794349-0b74285de7e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cm9wYSUyMGRlJTIwYmViZXxlbnwwfHwwfHw%3D&w=1000&q=80);
+background-position: CENTER center;
+background-size: cover;
+}
+#im4{
+    background-image: url(https://www.blogmodabebe.com/wp-content/uploads/2020/02/moda-infantil-kiabi-ss20-blogmodabebe50.jpg);
+background-position: CENTER center;
+background-size: cover;
+}
+#im5{
+    background-image: url(https://media.istockphoto.com/photos/mens-suits-on-hangers-in-different-colors-picture-id887360960?k=20&m=887360960&s=612x612&w=0&h=N0k2yX9noV6kNgpmKbcSXaLOl2x8Mbt_lyppAmfhNcA=);
+background-position: CENTER center;
+background-size: cover;
+}
+#im6{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/look-entretiempo-oficina-otono-portada-1631186966.jpg?crop=0.685xw:0.678xh;0.154xw,0.0315xh&resize=640:*);
+background-position: CENTER center;
+background-size: cover;
+}
+#im7{
+    background-image: url(https://muchosnegociosrentables.com/wp-content/uploads/2016/04/comprar-perfumes-originales-para-vender.jpg);
+background-position: CENTER center;
+background-size: cover;
+}
+#im8{
+    background-image: url(https://www.que.es/wp-content/uploads/2020/12/Zapatos-en-baldas.jpg);
+background-position: CENTER center;
+background-size: cover;
+}
+#im9{
+    background-image: url(https://media.vogue.mx/photos/5c07158eeb9d7740eb943120/3:2/w_795,h_530,c_limit/ipor_que_sale_el_acne_al_hacer_ejercicio_8534.png);
+background-position: cen center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.botonventa{
+    position: relative;
+    top: 4px;
+    right: 12px;
+    float: right;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvp1sQ6oxQhFV7FHSrNYyNsHrZc3Kl8VZ6pzVKcyMEI88kwjtGGHzS-pni86BvJT7XmOc&usqp=CAU);
+    background-position: CENTER center;
+background-size: 110%;
+cursor: pointer;
+border-radius: 100%;
+background-color: black;
+animation: colora linear infinite 4s alternate;
+}
+
+.botonventaall{
+    position: relative;
+    top: 4px;
+    right: 12px;
+    float: right;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvp1sQ6oxQhFV7FHSrNYyNsHrZc3Kl8VZ6pzVKcyMEI88kwjtGGHzS-pni86BvJT7XmOc&usqp=CAU);
+    background-position: CENTER center;
+background-size: 110%;
+cursor: pointer;
+border-radius: 100%;
+background-color: black;
+animation: colora linear infinite 4s alternate;
+}
+
+@keyframes colora {
+    0%{filter: hue-rotate(100deg);}
+    100%{filter: hue-rotate(0deg);}
+
+}
+
+#infobt1{
+    width: 160px;
+    height: 80px;
+    background-color: aqua;
+    position: relative;
+    left: 96px;
+  
+
+}
+
+
+.eff{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 56px;
+filter: opacity(50%);
+top: 288px;
+position: relative;
+}
+
+#tienda{
+    height:100%;
+    transition: 1.5s;
+    top: 96px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgba(157, 65, 65, 0);
+}
+
+
+#headertienda{
+width: 100%;
+height: 72px;
+margin-top: 10px;
+
+}
+
+
+#productos{
+    margin-top: 0px;
+
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse
+   
+}
+
+
+#cerrartienda{
+     cursor: pointer;
+    margin-left: 32px;
+    margin-top: 0px;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 228, 196, 0);
+    transition: 2s;
+    background-image: url("imagenes/equis.png");
+    background-position: center center;
+    background-clip: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+   
+    background-color: rgb(48, 143, 0);
+}
+
+#tomar{
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 32px;
+   top: 10px;
+    position: absolute;
+
+}
+.producto{
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.69);
+    transform: scale(0.9);
+    width: 288px;
+    height: 309px;
+    margin: 0 4px;
+    border: rgba(0, 0, 0, 0) 1.6px solid;
+    background-color: rgba(127, 255, 212, 0);
+    margin-bottom: 0px;
+   
+     border-radius: 14px;
+   
+}
+#divimagen{
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+
+#imagendeproducto{
+height: 100%;
+border-radius: 14px;
+   
+    
+   
+}
+
+
+
+
+
+
+#infoL{
+    background-color: violet;
+    font-weight: 400;
+float: left;
+position: absolute;
+transform: translate(10px ,-31px);
+width:130px ;
+height: 30px;
+background-color: rgba(255, 228, 196, 0);
+text-align: center;
+font-family: 'fuente1';
+font-size: 20px;
+
+bottom: 5px;
+}
+
+#infoR{
+    bottom: -10px;
+    left: 40px;
+    float: right;
+    position: absolute;
+    transform: translate(150px ,-31px);
+    width:90px ;
+    height: 30px;
+    background-color: rgba(255, 228, 196, 0);
+    text-align: center;
+    font-family: 'fuente1';
+    font-size: 20px;
+}
+
+#editp{
+    border-radius: 50%;
+    width: 45%;
+   aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+float: left;
+border: inset 1px solid black;
+background-image: url(imagenes/pencil.png);
+background-position: center center;
+background-size: 70%;
+background-repeat: no-repeat;
+}
+#deletep{
+    border-radius: 50%;
+    width: 45%;
+   aspect-ratio: 1/1;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    border: inset 1px solid black;
+    background-image: url(imagenes/bin.png);
+background-position: center center;
+background-size: 70%;
+background-repeat: no-repeat;
+}
+
+#ccc{
+    max-width: 984px;
+    width: calc(984px);
+    min-height:500px ;
+    background-color: blue;
+    position: absolute;
+ top: 150px;
+    z-index: 1;
+    
+}
+
+
+
+#ccc{
+    max-width: 984px;
+    width: calc(984px);
+    min-height:500px ;
+    background-color: blue;
+    position: absolute;
+ top: 150px;
+    z-index: 1;
+    
+}
